@@ -39,6 +39,8 @@
 
 .jumbotron{
     background-color: #AED581;
+    background-image: url("sustainability_masthead.jpg");
+    background-size: 100% auto;
 }
 
 body {
@@ -70,4 +72,9 @@ body {
     color: #666666;
     text-align: center;
     padding-bottom: 10px;
+}
+
+img {
+    width: 100%;
+
 }
