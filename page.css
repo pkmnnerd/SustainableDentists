@@ -41,6 +41,11 @@
     background-color: #AED581;
     background-image: url("sustainability_masthead.jpg");
     background-size: 100% auto;
+    padding-bottom: 0;
+}
+
+table{
+    margin-top:30px;
 }
 
 body {
@@ -58,9 +63,21 @@ body {
     font-size: 18;
 }
 
+.navbut {
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    padding: 8px 15px 8px 15px;
+    font-size: 18;
+}
+
 
 .learnbut:hover{
     background-color: #DDDDDD;
+}
+
+.navbut:hover{
+    background-color: #FFFFFF;
 }
 
 #main {
@@ -74,7 +91,16 @@ body {
     padding-bottom: 10px;
 }
 
-img {
+#brush {
     width: 100%;
 
+}
+
+#consult {
+    background-color: yellow;
+
+}
+
+form {
+    margin-bottom: 0;
 }
